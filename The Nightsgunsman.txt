@@ -1,0 +1,65 @@
+The Nightsgunsman
+
+You have a crossbow! You have to do some kind of ritual to charge your bow with up to (x) lunar, spectral bolts. This encourages a balance between standing still (vulnerable) and moving (less ammo).
+I should strike a balance between run-n-gun and stealthy gameplay, fewer tougher foes instead of many cannon fodder ones. Emphasis on few well-timed shots rather than spray and pray.
+
+UI can be minimal, and can show up on the PC's body (health, bolts). This is more elegant than putting it in a big DuckTales-style top bar.
+
+I need a compelling gameplay loop!
+
+Shovel Knight style: drop in at the left side of a level, walk and fire, crouch, maybe climb, evade detection, go up and down ladders and stairs, hit checkpoints, get to the end of the level, fight a boss.
+This loop is old as time, but it's a classic and should allow for an appropriate project scope.
+
+Aim mechanic: by default, the PC will fire a weak shot directly forward (or upwards if you're pressing up). This will be enough to KO weaker foes, but more than one shot will be required for big guys. This type of shot can be used on the run. Alternately, when stopped or crouched, the bow will auto-aim a powerful shot at the closest enemy in that direction. This will be signified by a lunar reticle appearing over the enemy's head. This shot can immediately KO a big lad.
+
+Health can be indicated by a glowing earring on the player. If it's glowing she can take one more shot. If it's not, she'll go down on the next hit. Health recharges automatically in moonlight.
+Bolts can be recharged with a slow-ish ritual in moonlight. Up to three bolts can be carried at a time. Available bolts are indicated by the bolts spectrally floating beside the PC.
+
+Combat scenarios:
+  PC has the height advantage on two big fellas. The PC takes one of them out with an aimed shot, then drops down and hits the other one with two hipfire shots. How to ensure the PC doesn't just snipe both?
+  The boss is in a contraption on the ceiling, which blocks part of the roof (moonlight comes through elsewhere). The boss has a big AOE attack and a left-to-right full-arena attack. Archers will occasionally spawn on either side of the arena, and the PC will need to find a safe space to stand in order to take aim properly. Boss has a weak point that opens occasionally, can hit it with upward hipshots or aimed shots. 
+
+Assets I will need:
+  Main character art
+    Idling
+    Crouching
+    Crouchwalking
+    Running
+    Aiming + Firing
+      Standing
+      Crouching
+    Victory pose
+    Dead
+  Environment art
+    Walls
+    Floors
+    Forest background
+  The Moon
+    All art should have a "lit by moonlight" version and a "dark" version
+    Parallax clouds to obscure the moon sometimes
+  Enemies
+    A big tough Knight
+      Idling
+      Walking
+      Running
+      Swinging a polearm
+      Unconscious
+    A little goblin with a big shield
+      Idling
+      Defending
+      Walking
+      Running
+      Shield Bashing
+      Unconscious
+    An enemy archer
+      Idling
+      Scouting
+      Aiming
+      Firing
+      Unconscious
+    A boss
+      No idea
+  
+That's a lot of fucking assets.
+
+    

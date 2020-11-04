@@ -1,0 +1,55 @@
+The theme for this year’s Game Off is MOONSHOT. 
+
+moonshot – noun
+
+an extremely ambitious and innovative project
+the act of launching a spacecraft to the moon
+a hit or thrown ball that travels a great distance with a high trajectory
+
+moonshot thinking – noun
+
+a type of thinking that aims to achieve something that is generally believed to be impossible. It encourages “anything is possible” dialogues around how to solve the challenge.
+
+2d platformer / shooter where your gun is charged and usable only in moonlight
+  Probably somewhat puzzle-y, rather than a real run-and-gun
+  I'd get to draw a whole lot of dark scary moonlit pixel art for this one
+  Maybe it's old-timey and it's a crossbow instead of a gun
+    This might not make sense because typically crossbows do not have batteries
+  Maybe you have to shoot werewolves
+  Maybe NES Jekyll and Hyde but good! Daytime sections of avoiding danger and interacting with the locals, nighttime sections of being sneaky and charging your gun and winning
+
+Spaceship sim to do complicated tasks to make your way to a planet
+  Roguelike? Different generated missions with varying difficulties?
+  Again a lot of interesting pixel art to be done here
+  I'm picturing something similar to a first-person, with static camera positions, Among Us
+    You can move from the Cockpit to the Reactor Room to wherever, solving various problems
+    I'd want to make the actual problem-solving fun and engaging, possibly relying on accumulated player knowledge of the proper procedures (Papers, Please)
+    This would make it harder to do as a roguelike but maybe not impossible, something like Flinthook where you can ramp up your difficulty
+    Oooooh mama i can see this getting scope-y, maybe not roguelike after all
+
+I think both of these ideas have potential, could be entertaining gameplay loops in both, and both would be fairly fun to program and design.
+
+Continue on from where Thrive left off
+  The moonshot in this case would be finding the components necessary to restart the water treatment plant or whatever
+  Hard to tie this to the theme properly I think
+Dating sim where you're a werewolf ("shoot your shot")
+  I don't actually play many dating sims so this one might be tricky
+  This seems like more of a test of my art / writing skills than my gamedev skills
+  The idea is interesting though and maybe some other time
+2d platformer where you're a werewolf
+  I feel like most of the qualities that werewolves have make them definitively better than humans at platformer / shooter / beat-em-up / video-games-in-general tasks
+"Moon's hot"? Is there anything there?
+  Geothermal (lunathermal?) energy on the moon, find a way to get it out of the moon and down to Earth
+  Doesn't matter if it's real or not
+  Could consist of scouting for good drilling sites, installing infrastructure, building stuff ...
+  Is this fun? This sounds like simcity but without the people
+Surely there's a sports game that I wouldn't mind making
+  The main "moonshot" thing that jumps to mind is like a once-in-a-lifetime impossible shot / goal / something
+  Necessarily a very short time to prepare and execute whatever gameplay I come up with
+  Might make the game really, really short
+What genres haven't I hit yet
+  Puzzle game
+  Racing game
+    
+
+

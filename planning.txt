@@ -1,0 +1,30 @@
+30 days in November!
+
+Day 3 (Tuesday):
+  Decide on a theme, come up with a compelling gameplay loop
+
+Day 8 (end of first weekend):
+  Have some aspect of the game be playable
+  Decide on a scope
+    Number of levels
+    Number of enemy types / bad situations
+    Approximate game length
+
+Day 15 (end of second weekend):
+  Have a good half of the art completed
+  Core gameplay should be pretty much done at this point
+    Add features, not whole mechanics, past this point
+  Refine the scope and adjust goals as necessary
+
+Day 22 (end of third weekend):
+  Art should be done
+  Music and sound should be complete or approaching complete
+  Gameplay should be ready for tuning
+  Refine the scope, adjust
+
+Day 29 (end of fourth weekend, which is a long weekend):
+  Tuning should be complete
+  Game should have everything it needs (splash screens, customizable controls, options)
+
+Day 30 (Monday, final day):
+  Upload the dang thing

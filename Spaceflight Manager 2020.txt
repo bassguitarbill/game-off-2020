@@ -1,0 +1,25 @@
+Spaceflight Manager 2020
+
+You're the engineer on a space flight to somewhere far-flung. The mission is highly risky: it's very far away, so no assistance is coming, and resources are limited because of how much stuff you need to bring with you. You get to be the only one not in cryo-sleep for the duration, because sleeping astronauts consume fewer resources than awake ones. Various things will happen to the ship as it travels to its destination, some of which threaten the mission, so you'll need to deal with them before they make the mission impossible. Eventually there's one big final crisis, you fix it, everyone wakes up, there's a landing section (possibly automated), and the game rates you based on efficiency and such.
+
+It's hard to come up with issues that couldn't just be solved by a computer.
+The trick could be that the computer is loath to waste power or resources, and a manual override is required to do anything that would cause a deviation. The player character will be the acting captain of the ship while the rest of the crew is asleep, so they're the one who has to do the overrides.
+
+Task Ideas:
+  Course correction module has become decalibrated
+    A permanent fix takes a while and requires travel far away in the ship
+    Alternatively, you can run a quick software fix which will align the ship but drift will continue to occur over time
+  Lights get broken
+    Keeping the lights off is actually a good way to save power, and once you learn to navigate the ship blindly you shouldn't need them
+    If you want to fix an actual broken light (might be necessary if another problem occurs in the same area, and you need to see it to fix it), you'll need to open the socket, remove the broken bulb, go to supplies, grab the correct kind of bulb, and replace it. The wrong kind of bulb will either break or be very dim.
+  Incoming object
+    Choose whether to use shields (less power but more of a chance of damage to the ship), or manuver out of the way
+  Hull breach
+    Deploy nanomachines to fix the hole (takes a long time and a lot of power) or perform the repair manually (requires you to suit up and grab a patch)
+  Powerline failure
+    Some puzzle to turn off the correct breakers to be able to manually repair the faulty power line. Risk of personal injury, short circuit (massive power loss), or other problems.
+    Find the bad section of line by going belowdecks to physically find the problem, isolate the bad section, replace the conduit, un-isolate everything
+  Filter needs changing on a cryo-sleep pod
+    Raise the correct pod from its cavity, switch on aux airflow, calibrate this temporary airflow, find the correct air filter, replace it, switch back to normal airflow, lower the pod
+  Come up with a few interesting ones, hard science be damned
+    Think Papers, Please where you have a series of tasks to do, rules to check, parameters to consider, then if you've done it wrong the ship takes on a bit more water
