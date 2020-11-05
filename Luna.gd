@@ -2,12 +2,13 @@ extends KinematicBody2D
 
 var momentum = Vector2.ZERO;
 
-const MAX_SPEED = 60
+const MAX_SPEED = 120
 const ACCEL = 6
-const DECEL = 0.8
+const DECEL = 0.6
 const GRAVITY = 5
 
 const JUMP_ACCEL = 200
+const STANDSTILL = 20
 
 func _physics_process(delta):
 	var move_vector = Vector2.ZERO
@@ -28,7 +29,7 @@ func _physics_process(delta):
 		move_vector += Vector2.RIGHT
 	
 	calculate_momentum(move_vector)
-	set_sprite_direction()
+	set_sprite()
 	add_gravity()
 	momentum = move_and_slide(momentum, Vector2.UP);
 	
@@ -45,13 +46,17 @@ func calculate_momentum(move_vector):
 	if move_vector.x == 0:
 		momentum.x *= DECEL
 
-func set_sprite_direction():
-	if momentum.x > 0:
+func set_sprite():
+	if momentum.x > STANDSTILL:
+		$AnimationPlayer.play("run")
 		$Sprite.flip_h = false
 		$CrouchSprite.flip_h = false
-	elif momentum.x < 0:
+	elif momentum.x < -STANDSTILL:
+		$AnimationPlayer.play("run")
 		$Sprite.flip_h = true
 		$CrouchSprite.flip_h = true
+	else:
+		$AnimationPlayer.play("idle")
 		
 func add_gravity():
 	momentum.y += GRAVITY
