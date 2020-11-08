@@ -1,9 +1,53 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Luna.tscn" type="PackedScene" id=1]
+[ext_resource path="res://images/tactical-log-cabin.png" type="Texture" id=2]
 [ext_resource path="res://Platform.tscn" type="PackedScene" id=3]
+[ext_resource path="res://images/tactical-log-cabin-dark.png" type="Texture" id=4]
+
+[sub_resource type="TileSet" id=1]
+0/name = "tactical-log-cabin.png 0"
+0/texture = ExtResource( 2 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 192, 96 )
+0/tile_mode = 2
+0/autotile/icon_coordinate = Vector2( 0, 0 )
+0/autotile/tile_size = Vector2( 32, 32 )
+0/autotile/spacing = 0
+0/autotile/occluder_map = [  ]
+0/autotile/navpoly_map = [  ]
+0/autotile/priority_map = [  ]
+0/autotile/z_index_map = [  ]
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+0/z_index = 0
+1/name = "tactical-log-cabin-dark.png 1"
+1/texture = ExtResource( 4 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 192, 96 )
+1/tile_mode = 2
+1/autotile/icon_coordinate = Vector2( 0, 0 )
+1/autotile/tile_size = Vector2( 32, 32 )
+1/autotile/spacing = 0
+1/autotile/occluder_map = [  ]
+1/autotile/navpoly_map = [  ]
+1/autotile/priority_map = [  ]
+1/autotile/z_index_map = [  ]
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shapes = [  ]
+1/z_index = 0
 
 [node name="TestScene" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 1 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 10, 0, 0, 11, 0, 131072, 12, 0, 131074, 13, 0, 2, 14, 0, 0, 15, 0, 1, 16, 0, 2, 65545, 0, 0, 65546, 0, 65536, 65547, 0, 131073, 65548, 0, 131073, 65549, 0, 65538, 65550, 0, 65536, 65551, 0, 131073, 65552, 0, 65538, 65553, 0, 2, 131073, 1, 0, 131074, 0, 131072, 131075, 0, 131074, 131076, 1, 2, 131081, 0, 65536, 131082, 0, 65537, 131083, 0, 131073, 131084, 0, 131073, 131085, 0, 131073, 131086, 0, 131073, 131087, 0, 131073, 131088, 0, 131073, 131089, 0, 65538, 196608, 1, 0, 196609, 0, 65536, 196610, 0, 131073, 196611, 0, 131073, 196612, 0, 65538, 196613, 1, 2, 196617, 0, 3, 196618, 0, 4, 196619, 0, 4, 196620, 0, 4, 196621, 0, 4, 196622, 0, 4, 196623, 0, 4, 196624, 0, 4, 196625, 0, 4, 196626, 0, 4, 196627, 0, 5, 262144, 0, 65536, 262145, 0, 131073, 262146, 0, 131073, 262147, 0, 131073, 262148, 0, 131073, 262149, 0, 65538, 262153, 0, 65539, 262154, 0, 65540, 262155, 0, 65540, 262156, 0, 65540, 262157, 0, 65540, 262158, 0, 65540, 262159, 0, 65540, 262160, 0, 65540, 262161, 0, 65540, 262162, 0, 65540, 262163, 0, 65541, 327680, 0, 3, 327681, 0, 4, 327682, 0, 4, 327683, 0, 4, 327684, 0, 4, 327685, 0, 5, 327689, 0, 65539, 327690, 0, 65540, 327691, 0, 65540, 327692, 0, 65540, 327693, 0, 65540, 327694, 0, 65540, 327695, 0, 65540, 327696, 0, 65540, 327697, 0, 65540, 327698, 0, 65540, 327699, 0, 65541, 393216, 0, 131075, 393217, 0, 131076, 393218, 0, 131076, 393219, 0, 131076, 393220, 0, 131076, 393221, 0, 131077, 393225, 0, 65539, 393226, 0, 65540, 393227, 0, 65540, 393228, 0, 65540, 393229, 0, 65540, 393230, 0, 65540, 393231, 0, 65540, 393232, 0, 65540, 393233, 0, 65540, 393234, 0, 65540, 393235, 0, 65541, 458752, 1, 65539, 458753, 1, 65540, 458754, 1, 65540, 458755, 1, 65540, 458756, 1, 65540, 458757, 1, 65541, 458761, 0, 131075, 458762, 0, 131076, 458763, 0, 131076, 458764, 0, 131076, 458765, 0, 131076, 458766, 0, 131076, 458767, 0, 131076, 458768, 0, 131076, 458769, 0, 131076, 458770, 0, 65541, 458771, 0, 65541, 524288, 1, 65539, 524289, 1, 65540, 524290, 1, 65540, 524291, 1, 65540, 524292, 1, 65540, 524293, 1, 65541, 589824, 1, 131075, 589825, 1, 131076, 589826, 1, 131076, 589827, 1, 131076, 589828, 1, 131076, 589829, 1, 131077 )
 
 [node name="Platform" parent="." instance=ExtResource( 3 )]
 position = Vector2( 68.8152, 331.047 )
