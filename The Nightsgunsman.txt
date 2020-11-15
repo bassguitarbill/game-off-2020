@@ -16,7 +16,7 @@ Health can be indicated by a glowing earring on the player. If it's glowing she 
 Bolts can be recharged with a slow-ish ritual in moonlight. Up to three bolts can be carried at a time. Available bolts are indicated by the bolts spectrally floating beside the PC.
 
 Combat scenarios:
-  PC has the height advantage on two big fellas. The PC takes one of them out with an aimed shot, then drops down and hits the other one with two hipfire shots. How to ensure the PC doesn't just snipe both?
+  PC has the height advantage on two big fellas. The PC takes one of them out with an aimed shot, then drops down and hits the other one with two hipfire shots. How to ensure the PC doesn't just snipe both? Maybe if an enemy is aware, sniping doesn't work, but close-range shots do.
   The boss is in a contraption on the ceiling, which blocks part of the roof (moonlight comes through elsewhere). The boss has a big AOE attack and a left-to-right full-arena attack. Archers will occasionally spawn on either side of the arena, and the PC will need to find a safe space to stand in order to take aim properly. Boss has a weak point that opens occasionally, can hit it with upward hipshots or aimed shots. 
 
 Assets I will need:
